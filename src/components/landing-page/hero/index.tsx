@@ -2,6 +2,7 @@ import React from "react";
 import { Ephesis } from "next/font/google";
 import Link from "next/link";
 import { SiStartrek } from "react-icons/si";
+import Features from "./features";
 
 const ephesis = Ephesis({
   weight: ["400"],
@@ -34,6 +35,7 @@ const Hero = () => {
           Explore
         </Link>
       </div>
+      <Features />
     </div>
   );
 };
