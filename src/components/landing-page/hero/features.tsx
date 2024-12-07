@@ -30,7 +30,7 @@ const Features = () => {
       {features.map(({ image, name }, idx) => {
         return (
           <div
-            className={`size-40 rounded-xl p-1 bg-gray-200 ${
+            className={`size-40 rounded-xl p-1 bg-gray-200 shadow-lg ${
               idx % 2 === 0 ? "-rotate-12" : "rotate-12"
             }`}
             key={name}

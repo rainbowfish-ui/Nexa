@@ -4,7 +4,7 @@ import { SiStartrek } from "react-icons/si";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-16 py-3 sticky top-0 flex items-center justify-between gap-20 px-20 text-sm backdrop-blur-md">
+    <div className="w-full h-16 py-3 sticky top-0 flex items-center justify-between gap-20 px-20 text-sm backdrop-blur-md z-50">
       <div className="flex items-center gap-16">
         <Link
           href="/"
