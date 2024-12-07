@@ -11,7 +11,7 @@ const Navbar = () => {
           className="flex items-center gap-2 text-gray-200 hover:text-white"
         >
           <SiStartrek size={28} />
-          <h1 className="text-xl font-semibold">Nexa</h1>
+          <h2 className="text-xl font-semibold">Nexa</h2>
         </Link>
         <div className="flex items-center gap-6">
           <Link href="#" className="text-gray-300 hover:text-white">
